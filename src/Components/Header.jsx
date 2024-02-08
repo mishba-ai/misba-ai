@@ -13,7 +13,7 @@ const Header = () => {
         top: 0,
         width: "100%",
         zIndex: 10,
-        fontFamily: 'Roboto Mono , monospace',
+        fontFamily: "Roboto·Mono·,·monospace",
       }}
     >
       <a href="#home" style={{color:'white'}}>.HOME</a>

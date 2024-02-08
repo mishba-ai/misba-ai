@@ -1,26 +1,25 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const imageAltText = "homeimage";
+// const imageAltText = "homeimage";
 
 const Home = ({ name, title }) => {
   return (
-    <section id="home" className="min-height">
-      <img
+    <section id="home" className="min-height bg-black ">
+      {/* <img
         className="background"
         src="https://i.pinimg.com/564x/75/87/df/7587df77ef521cf98057d0028ee983f1.jpg"
         alt={imageAltText}
-      />
+      /> */}
 
       <div
         style={{
-          color: "white",
-          position: "absolute",
-          bottom: "2rem",
+          color: "#99ff52",
+          fontSize: "2rem",
+          fontWeight: "bold",
+          textAlign: "center",
           display: "flex",
-          left: "50%",
-          transform: "translateX(-50%)",
-          width: "100%",
+          flexDirection: "column",
         }}
       >
         <h1>{name}</h1>

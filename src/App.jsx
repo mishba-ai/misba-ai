@@ -45,6 +45,7 @@ const App = () => {
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
+      <h1 className="text-3xl text-red-400 font-bold underline">Hello world!</h1>{" "}
     </div>
   );
 };
