@@ -1,9 +1,4 @@
 import React from "react";
-
-import image from "../images/design-desk.jpeg";
-
-const imageAltText = "desktop with books and laptop";
-
 const Portfolio = () => {
   return (
     <section className="h-screen w-full bg-black" id="portfolio">
