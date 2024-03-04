@@ -1,29 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
-
-// const imageAltText = "homeimage";
-
+import Header from "./Header";
 const Home = ({ name, title }) => {
   return (
-    <section id="home" className="min-height bg-black ">
-      {/* <img
-        className="background"
-        src="https://i.pinimg.com/564x/75/87/df/7587df77ef521cf98057d0028ee983f1.jpg"
-        alt={imageAltText}
-      /> */}
-
-      <div
-        style={{
-          color: "#99ff52",
-          fontSize: "2rem",
-          fontWeight: "bold",
-          textAlign: "center",
-          display: "flex",
-          flexDirection: "column",
-        }}
-      >
-        <h1>{name}</h1>
-        <h2>{title}</h2>
+    <section id="home" className=" scroll-x-hidden w-full h-screen bg-black ">
+      <Header />
+      <div className="text-white  font-medium mx-24 mt-16">
+        <div className="text-[#A6A9AA]">
+          <p className="">
+            &lt;p/&gt;<span className="text-[#02F74C] font-code font-semibold">This is</span>
+            &lt;p/&gt;
+          </p>
+          <h1 className="mt-4 mx-14">
+            &lt;h1/&gt;
+            <div className="text-5xl text-white mx-8 font-Kode">{name}</div>&lt;h1/&gt;
+          </h1>
+          {/* <h2>{title}</h2> */}
+        </div>
       </div>
     </section>
   );

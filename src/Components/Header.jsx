@@ -2,24 +2,15 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div
-      style={{
-        position: "fixed",
-        display: "flex",
-        justifyContent: "center",
-        gap: "3rem",
-        background: "transparent",
-        padding: "1rem",
-        top: 0,
-        width: "100%",
-        zIndex: 10,
-        fontFamily: "Roboto·Mono·,·monospace",
-      }}
-    >
-      <a href="#home" style={{color:'white'}}>.HOME</a>
-      <a href="#about" style={{color:'white'}}>.ABOUT</a>
-      <a href="#portfolio" style={{color:'white'}}>.PORTFOLIO</a>
-      <a href="#footer" style={{color:'white'}}>.CONTACT</a>
+    <div className="justify-around  flex bg-transparent font-semibold  w-full z-10 pt-4 text-lg text-[#A6A9AA] font-code">
+      <div className="flex flex-col gap-y-2">
+        <a href="#home">.&lt;Home/&gt;</a>
+        <a href="#about">.&lt;About/&gt;</a>
+      </div>
+      <div className="flex flex-col gap-y-2">
+        <a href="#portfolio">.&lt;Portfolio/&gt;</a>
+        <a href="#footer">.&lt;Contact/&gt;</a>
+      </div>
     </div>
   );
 };

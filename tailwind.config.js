@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        code: ['"Nanum Gothic Coding"', '"monospace"'],
+        Kode: ['"Kode Mono"', "monospace"],
+      },
+    },
   },
   plugins: [],
 };
