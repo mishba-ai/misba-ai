@@ -1,16 +1,12 @@
 import React from "react";
-
-import About from "./Components/About";
+import Projects from "./Components/Projects";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
-
-import "./styles.css";
-
 const siteProps = {
   name: "MISHBA BAGBAN",
-  title: "FULLSTACK WEB-DEVELOPER & TECHNICAL WRITER",
+  title: "Fullstack Web-Developer & Technical Writter",
   email: "alex@example.com",
   gitHub: "mishba-ai",
   instagram: "microsoft",
@@ -27,7 +23,7 @@ const App = () => {
     <div id="main" className="overflow-x-hidden	">
       {/* <Header /> */}
       <Home title={siteProps.title} name={siteProps.name} />
-      <About />
+      <Projects />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
