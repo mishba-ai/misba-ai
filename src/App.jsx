@@ -3,7 +3,7 @@ import Projects from "./Components/Projects";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
-import Portfolio from "./Components/Portfolio";
+import Press from "./Components/Press";
 const siteProps = {
   name: "MISHBA BAGBAN",
   title: "Fullstack Web-Developer & Technical Writter",
@@ -24,7 +24,7 @@ const App = () => {
       {/* <Header /> */}
       <Home title={siteProps.title} name={siteProps.name} />
       <Projects />
-      <Portfolio />
+      <Press />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );

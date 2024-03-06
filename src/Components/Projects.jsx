@@ -11,7 +11,7 @@ const Projects = () => {
           <div className="text-white font-Kode text-7xl mx-4">MY Portfolio</div>
           <span className="absolute right-[30rem] text-sm">&lt;/h2&gt;</span>
         </p>
-        <div className="flex mt-16 text-[#A6A9AA] gap-x-2">
+        <div className="flex mt-16 text-[#A6A9AA] gap-x-6">
           <div className="w-72 h-72 border rounded-full border-[#A6A9AA]"></div>
           <div className="">
             <span className="absolute text-sm left-[42rem]">&lt;p&gt;</span>{" "}
@@ -24,6 +24,7 @@ const Projects = () => {
             <span className="mt-4 text-sm absolute left-[42rem]">&lt;/p&gt;</span>
           </div>
         </div>
+        <hr className="border-[#1D5D33] w-72 mt-10 border-2" />
       </div>
     </section>
   );
