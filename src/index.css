@@ -6,6 +6,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --greenPrimary :#02F74C;
+}
+
 /* SCROLLBAR customization */
 /* width */
 ::-webkit-scrollbar {

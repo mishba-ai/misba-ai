@@ -1,9 +1,9 @@
 {
-  "name": "educator-js-codespace-template",
+  "name": "misba_ai",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "My Portfolio",
   "source": "src/index.html",
-  "homepage": "https://github.com/microsoft/codespaces-teaching-template-js#readme",
+  "homepage": "https://github.com/mishba-ai/Skillfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
@@ -13,16 +13,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
+    "url": "git+https://github.com/mishba-ai/Skillfolio.git"
   },
-  "author": "Mishba",
-  "license": "ISC",
+  "author": "Misba",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/microsoft/codespaces-teaching-template-js/issues"
+    "url": "https://github.com/mishba-ai/Skillfolio/issues"
   },
   "dependencies": {
+    "p5": "^1.9.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@p5-wrapper/react": "^4.1.2",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.17",

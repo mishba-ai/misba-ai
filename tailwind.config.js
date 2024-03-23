@@ -7,6 +7,9 @@ module.exports = {
         code: ['"Nanum Gothic Coding"', '"monospace"'],
         Kode: ['"Kode Mono"', "monospace"],
       },
+      colors: {
+        greenPrimary: "var(--greenPrimary)",
+      },
     },
   },
   plugins: [],
