@@ -1,10 +1,11 @@
 import React from "react";
 import connectdevs from "../images/connectdevs.png";
 import { useState } from "react";
-import backward from "../images/backward.svg";
+// import backward from "../images/backward.svg";
+import forward from "../images/forward.svg";
 
 const Projects = () => {
-  const [currrentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const projectList = [
     {
       title: "Connect Devs",
@@ -44,6 +45,9 @@ const Projects = () => {
     setCurrentIndex(newIndex);
   };
 
+  // const prev = () => setCurrentIndex(currentIndex) => (currentIndex ===0 ? projectList.length -1 : currentIndex -1)
+
+  // const next = () => setCurrentIndex(currentIndex) => (currentIndex === projectList.length -1 ? 0 : currentIndex +1)
   return (
     <section className="h-screen w-full bg-black overflow-y-hidden">
       <div className="flex justify-center items-center pt-8  flex-col">
@@ -53,41 +57,61 @@ const Projects = () => {
           <div className="text-white font-Kode text-7xl mx-4">MY Portfolio</div>
           <span className="relative left-[30rem] text-sm">&lt;/h2&gt;</span>
         </p>
-        <div className="flex mt-16 text-[#A6A9AA] gap-x-6">
-          <div className="">
+
+        <div className="flex mt-16 text-[#A6A9AA] gap-x- overflow-hidden">
+          <div className="w-ful overflow-hidden">
             <span className="absolute text-sm left-[42rem]">&lt;p&gt;</span>
 
             {/* carousel items */}
 
-            <div className=" flex-nowrap overflow-x-hidden inline-flex justify-center items-center">
-              {projectList.map((project) => (
-                <div className="flex bg-white " key={project.title}>
-                  <div className="">
-                    <img
-                      src={project.image}
-                      alt=""
-                      className="w-72 h-72 border rounded-full border-[#A6A9AA]"
-                    />
-                  </div>
+            <div className=" flex flex-nowrap overflow-hidden justify-center items-center ">
+              {projectList.slice(currentIndex, currentIndex + 1).map((project, index) => (
+                <div
+                  className="flex transition-transform ease-out  duration-500"
+                  key={project.title}
+                  style={{ transform: `translate(-${(index - currentIndex) * 100}%)` }}
+                >
+                  <div className=" flex ">
+                    <div className="">
+                      <img
+                        src={project.image}
+                        alt=""
+                        className="w-72 h-72 border rounded-full border-[#A6A9AA]"
+                      />
+                    </div>
 
-                  <div className="">
-                    <a href={project.url} target="_blank" rel="noopener noreferrer">
-                      <h3 className="font-Kode text-5xl mt-4 text-[#02F74C]">{project.title}</h3>
-                    </a>
-                    <p className="w-96 font-code font-semibold mt-1">{project.description}</p>
+                    <div className="">
+                      <a href={project.url} target="_blank" rel="noopener noreferrer">
+                        <h3 className="font-Kode text-5xl mt-4 text-[#02F74C]">{project.title}</h3>
+                      </a>
+                      <p className="w-96 font-code font-semibold mt-1">{project.description}</p>
+                    </div>
                   </div>
                 </div>
               ))}
             </div>
             {/* curousel buttons */}
-            <div>
-              <button className="w-14 h-14 flex justify-center items-center rounded-full bg-greenPrimary border-spacing-1 border-greenPrimary">
-                <img src={backward} alt="" />
+
+            <div className="flex justify-evenly ">
+              <button
+                className="w-14 h-14 flex justify-center items-center rounded-full bg-greenPrimary border-spacing-1 border-greenPrimary"
+                onClick={() => {
+                  updateIndex(currentIndex - 1);
+                }}
+              >
+                <img src={forward} alt="backward-arrow" className="rotate-180" />
               </button>
-              <button className="">
-                <img src="" alt="" />
+
+              <button
+                className="w-14 h-14 flex justify-center items-center rounded-full bg-greenPrimary border-spacing-1 border-greenPrimary"
+                onClick={() => {
+                  updateIndex(currentIndex + 1);
+                }}
+              >
+                <img src={forward} alt="forward-arrow" />
               </button>
             </div>
+
             <span className="mt-4 text-sm absolute left-[42rem]">&lt;/p&gt;</span>
           </div>
         </div>
