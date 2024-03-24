@@ -9,6 +9,7 @@ module.exports = {
       },
       colors: {
         greenPrimary: "var(--greenPrimary)",
+        greenSecondary: "var(--greenSecondary)",
       },
     },
   },

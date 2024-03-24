@@ -58,9 +58,9 @@ const Projects = () => {
           <span className="relative left-[30rem] text-sm">&lt;/h2&gt;</span>
         </p>
 
-        <div className="flex mt-16 text-[#A6A9AA] gap-x- overflow-hidden">
+        <div className="flex mt-16 text-[#A6A9AA] gap-x-6 overflow-hidden">
           <div className="w-ful overflow-hidden">
-            <span className="absolute text-sm left-[42rem]">&lt;p&gt;</span>
+            <span className="absolute text-sm left-[44rem]">&lt;p&gt;</span>
 
             {/* carousel items */}
 
@@ -71,7 +71,7 @@ const Projects = () => {
                   key={project.title}
                   style={{ transform: `translate(-${(index - currentIndex) * 100}%)` }}
                 >
-                  <div className=" flex ">
+                  <div className=" flex gap-x-6 ">
                     <div className="">
                       <img
                         src={project.image}
@@ -92,7 +92,7 @@ const Projects = () => {
             </div>
             {/* curousel buttons */}
 
-            <div className="flex justify-evenly ">
+            <div className="flex justify-between ">
               <button
                 className="w-14 h-14 flex justify-center items-center rounded-full bg-greenPrimary border-spacing-1 border-greenPrimary"
                 onClick={() => {
@@ -112,7 +112,7 @@ const Projects = () => {
               </button>
             </div>
 
-            <span className="mt-4 text-sm absolute left-[42rem]">&lt;/p&gt;</span>
+            <span className="mt-4 text-sm absolute top-[68rem] left-[44rem]">&lt;/p&gt;</span>
           </div>
         </div>
         <hr className="border-[#1D5D33] w-72 mt-10 border-2" />
