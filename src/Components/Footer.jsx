@@ -2,14 +2,14 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import devDotToIcon from "../images/socials/devdotto.svg";
-import envelopeIcon from "../images/socials/envelope.svg";
-import gitHubIcon from "../images/socials/github.svg";
+// import envelopeIcon from "../images/socials/envelope.svg";
+// import gitHubIcon from "../images/socials/github.svg";
 // import instagramIcon from "../images/socials/instagram.svg";
-import linkedInIcon from "../images/socials/linkedin.svg";
-import mediumIcon from "../images/socials/medium.svg";
-import twitterIcon from "../images/socials/twitter.svg";
+// import linkedInIcon from "../images/socials/linkedin.svg";
+// import mediumIcon from "../images/socials/medium.svg";
+// import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
-import hashnode from "../images/socials/hashnode.svg";
+// import hashnode from "../images/socials/hashnode.svg";
 
 const Footer = (props) => {
   const { devDotTo, email, gitHub, linkedIn, medium, name, twitter, youTube } = props;
@@ -17,7 +17,7 @@ const Footer = (props) => {
   return (
     <div
       id="footer"
-      className=" bg-black flex flex-col text-[#A6A9AA] font-medium justify-center items-center w-full gap-[2.5rem] pt-[10rem] pr-0 pb-[3rem]"
+      className=" bg-black flex flex-col text-[#A6A9AA] font-medium justify-center items-center w-full gap-[2.5rem] pt-[1rem] pr-0 pb-[3rem]"
     >
       <div className="">
         {" "}
@@ -26,22 +26,38 @@ const Footer = (props) => {
         <span className="text-sm relative left-[40rem]">&lt;/h3&gt;</span>
       </div>
 
-      <div className="flex gap-x-8 justify-center">
-        {email && (
-          <a href={`mailto:${email}`}>
-            <img src={envelopeIcon} alt="email" className="w-7 h-7" />
-          </a>
-        )}
-        {devDotTo && (
-          <a href={`https://dev.to/${devDotTo}`} target="_blank" rel="noopener noreferrer">
-            <img src={devDotToIcon} alt="Dev.to" className="w-7 h-7" />
-          </a>
-        )}
-        {gitHub && (
-          <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
-            <img src={gitHubIcon} alt="GitHub" className="w-7 h-7" />
-          </a>
-        )}
+      <div className="flex  gap-8 justify-center font-Ubuntu text-[#A6A9AA]">
+        <div className="">
+          {email && (
+            <a
+              href={`mailto:${email}`}
+              className="w-48 h-48 rounded-full flex flex-col relative right-[7rem] top-8 justify-center items-center border-2 border-greenPrimary"
+            >
+              {/* <img src={envelopeIcon} alt="email" className="w-7 h-7 " /> */}
+              <span className="text-sm ">&lt;&gt;</span>
+              <p className=" ">Email</p>
+              <span className="text-sm ">&lt;/&gt;</span>
+            </a>
+          )}
+          {/* {devDotTo && (
+            <a href={`https://dev.to/${devDotTo}`} target="_blank" rel="noopener noreferrer">
+              <img src={devDotToIcon} alt="Dev.to" className="w-7 h-7" />
+            </a>
+          )} */}
+          {gitHub && (
+            <a
+              href={`https://github.com/${gitHub}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-36 h-36 rounded-full flex flex-col relative left-28 justify-center items-center border-2 border-greenPrimary"
+            >
+              {/* <img src={gitHubIcon} alt="GitHub" className="w-7 h-7" /> */}
+              <span className="text-sm ">&lt;&gt;</span>
+              <p className=" ">GitHub</p>
+              <span className="text-sm ">&lt;/&gt;</span>
+            </a>
+          )}
+        </div>
         {/* {instagram && (
           <a
             href={`https://www.instagram.com/${instagram}`}
@@ -51,45 +67,52 @@ const Footer = (props) => {
             <img src={instagramIcon} alt="Instagram" className="socialIcon" />
           </a>
         )} */}
-        {linkedIn && (
-          <a
-            href={`https://www.linkedin.com/in/${linkedIn}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={linkedInIcon} alt="LinkedIn" className="w-7 h-7" />
-          </a>
-        )}
-        {medium && (
-          <a href={`https://medium.com/@${medium}`} target="_blank" rel="noopener noreferrer">
-            <img src={mediumIcon} alt="Medium" className="w-7 h-7" />
-          </a>
-        )}
-        {twitter && (
-          <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noopener noreferrer">
-            <img src={twitterIcon} alt="Twitter" className="w-7 h-7" />
-          </a>
-        )}
-        {youTube && (
-          <a
-            href={`https://www.youtube.com/c/${youTube}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={youTubeIcon} alt="YouTube" className="w-7 h-7" />
-          </a>
-        )}
-        {hashnode && (
-          <a
-            href={`https://www.hashnode.com/c/${hashnode}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={hashnode} alt="hashnode" className="w-8 h-8" />
-          </a>
-        )}
+        <div>
+          {linkedIn && (
+            <a
+              href={`https://www.linkedin.com/in/${linkedIn}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-44 h-44 rounded-full relative right-2 bottom-2 flex flex-col  justify-center items-center border-2 border-greenPrimary"
+            >
+              {/* <img src={linkedInIcon} alt="LinkedIn" className="w-7 h-7" /> */}
+              <span className="text-sm ">&lt;&gt;</span>
+
+              <p className=" ">Linkedin</p>
+              <span className="text-sm ">&lt;/&gt;</span>
+            </a>
+          )}
+          {medium && (
+            <a href={`https://medium.com/@${medium}`} target="_blank" rel="noopener noreferrer">
+              {/* <img src={mediumIcon} alt="Medium" className="w-7 h-7" /> */}
+            </a>
+          )}
+          {twitter && (
+            <a
+              href={`https://twitter.com/${twitter}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-40 h-40 rounded-full flex flex-col relative left-44 justify-center items-center border-2 border-greenPrimary"
+            >
+              {/* <img src={twitterIcon} alt="Twitter" className="w-7 h-7" /> */}
+              <span className="text-sm ">&lt;&gt;</span>
+
+              <p className=" ">Twitter</p>
+              <span className="text-sm ">&lt;/&gt;</span>
+            </a>
+          )}
+          {youTube && (
+            <a
+              href={`https://www.youtube.com/c/${youTube}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={youTubeIcon} alt="YouTube" className="w-7 h-7" />
+            </a>
+          )}
+        </div>
       </div>
-      <p className="text-white mt-0 font-Kode text-sm">Created by {name}</p>
+      <p className=" mt-0 font-Kode text-sm">Created by {name}</p>
     </div>
   );
 };

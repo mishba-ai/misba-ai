@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         code: ['"Nanum Gothic Coding"', '"monospace"'],
         Kode: ['"Kode Mono"', "monospace"],
+        Ubuntu: ['"Ubuntu"', "sans-serif"],
       },
       colors: {
         greenPrimary: "var(--greenPrimary)",

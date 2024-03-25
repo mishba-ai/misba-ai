@@ -76,7 +76,7 @@ const Projects = () => {
                       <img
                         src={project.image}
                         alt=""
-                        className="w-72 h-72 border rounded-full border-[#A6A9AA]"
+                        className="w-72 h-72 border-2 rounded-full border-[#A6A9AA]"
                       />
                     </div>
 
@@ -84,7 +84,7 @@ const Projects = () => {
                       <a href={project.url} target="_blank" rel="noopener noreferrer">
                         <h3 className="font-Kode text-5xl mt-4 text-[#02F74C]">{project.title}</h3>
                       </a>
-                      <p className="w-96 font-code font-semibold mt-1">{project.description}</p>
+                      <p className="w-96 font-code text-lg font-semibold mt-1">{project.description}</p>
                     </div>
                   </div>
                 </div>

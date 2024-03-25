@@ -12,9 +12,9 @@ const siteProps = {
   email: "mishbabagban@gmail.com",
   gitHub: "mishba-ai",
   // instagram: "microsoft",
-  linkedIn: "mishba",
-  Hashnode: "mishba",
-  twitter: "misba",
+  linkedIn: "mishba-bagban",
+  // Hashnode: "mishba",
+  twitter: "mishba_bagban",
 };
 
 const App = () => {
