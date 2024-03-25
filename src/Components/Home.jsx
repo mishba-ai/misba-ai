@@ -10,7 +10,7 @@ const Home = ({ name, title }) => {
         <div className="text-[#A6A9AA]">
           <p className="">
             <span className="text-sm">&lt;p&gt;</span>
-            <span className="text-[#02F74C] text-sm font-code text-lg font-semibold">This is</span>
+            <span className="text-[#02F74C] text-sm font-code  font-semibold">This is</span>
             <span className="text-sm"> &lt;/p&gt;</span>
           </p>
           <h1 className="mt-4 mx-16">
@@ -25,7 +25,21 @@ const Home = ({ name, title }) => {
           </p>
         </div>
         <div className="">
-          <div className="w-56 h-56 rounded-full border border-[#A6A9AA] flex justify-center items-center">
+          <span
+            className="w-72 h-72 border-r-2 border-r-gray border -rotate-[40deg] bottom-[15rem] border-transparent rounded-[50%] left-[63rem] absolute 
+          after:absolute after:w-2 after:h-2 after:bg-white after:ring-2 after:rounded-full after:ring-green-400/50 after:shadow-md after:content-[''] after:shadow-white
+          after:bottom-[15.6rem] after:right-12
+          before:absolute before:w-2 before:h-2 before:bg-white before:ring-2 before:rounded-full before:ring-green-400/50 before:shadow-md before:content-[''] before:shadow-white
+          before:top-[15.6rem] before:right-12
+          
+          "
+          ></span>
+          <div
+            className="w-56 h-56 rounded-full border relative border-[#A6A9AA] flex justify-center items-center after:w-64 after:h-64  after:absolute after:border-t-gray after:border-t-2 after:border after:-rotate-45  after:border-transparent  after:rounded-[50%] 
+          before:w-64 before:h-64  before:absolute before:border-b-gray before:border-b-2 before:border before:border-transparent 
+          before:-rotate-45 before:top- before:rounded-[50%] 
+          "
+          >
             <p>
               {" "}
               <span className="text-[#02F74C]">

@@ -28,8 +28,10 @@ const Press = () => {
 
           <li></li>
         </ul>
-        <div className="mt-10 h-40 border border-greenPrimary relative after:rounded-full after:h-2 after:absolute after:top-[9.8rem] after:-right-1   after:w-2 after:bg-white after:shadow-md  after:ring-2 after:ring-green-400/50  after:content-[''] after:shadow-white    
-        before:rounded-full before:h-2 before:absolute before:-top-2 before:-right-1   before:w-2 before:ring-green-400/50 before:ring-2 before:bg-white before:shadow-md before:content-[''] before:shadow-white"></div>
+        <div
+          className="mt-10 h-40 border border-greenPrimary relative after:rounded-full after:h-2 after:absolute after:top-[9.8rem] after:-right-1   after:w-2 after:bg-white after:shadow-md  after:ring-2 after:ring-green-400/50  after:content-[''] after:shadow-white    
+        before:rounded-full before:h-2 before:absolute before:-top-2 before:-right-1   before:w-2 before:ring-green-400/50 before:ring-2 before:bg-white before:shadow-md before:content-[''] before:shadow-white"
+        ></div>
       </div>
     </section>
   );

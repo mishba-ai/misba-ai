@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      borderRadius: {
+        "semi-border": "50% 100px 100px 0 0",
+      },
       fontFamily: {
         code: ['"Nanum Gothic Coding"', '"monospace"'],
         Kode: ['"Kode Mono"', "monospace"],
@@ -11,6 +14,7 @@ module.exports = {
       colors: {
         greenPrimary: "var(--greenPrimary)",
         greenSecondary: "var(--greenSecondary)",
+        gray: "var(--gray)",
       },
     },
   },
