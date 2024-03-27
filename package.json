@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My Portfolio",
   "source": "src/index.html",
-  "homepage": "https://github.com/mishba-ai/Skillfolio",
+  "homepage": "https://github.com/mishba-ai/Skillfolio", 
   "scripts": {
     "start": "parcel",
     "build": "parcel build",

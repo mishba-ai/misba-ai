@@ -1,19 +1,16 @@
 import React from "react";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer";
-// import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Press from "./Components/Press";
 import Wavyline from "./Components/Wavyline";
 
 const siteProps = {
   name: "MISBA BAGBAN",
-  title: "Fullstack Web-Developer & Technical Writter",
+  title: "Frontend Web-Developer & Technical Writter",
   email: "mishbabagban@gmail.com",
   gitHub: "mishba-ai",
-  // instagram: "microsoft",
   linkedIn: "mishba-bagban",
-  // Hashnode: "mishba",
   twitter: "mishba_bagban",
 };
 

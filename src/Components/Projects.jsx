@@ -59,9 +59,7 @@ const Projects = () => {
         </p>
 
         <div className="flex mt-16 text-[#A6A9AA] gap-x-6 overflow-hidden">
-          <div className="w-ful overflow-hidden">
-            <span className="absolute text-sm left-[44rem]">&lt;p&gt;</span>
-
+          <div className="w-ful overflow-hidden relative">
             {/* carousel items */}
 
             <div className=" flex flex-nowrap overflow-hidden justify-center items-center ">
@@ -71,21 +69,26 @@ const Projects = () => {
                   key={project.title}
                   style={{ transform: `translate(-${(index - currentIndex) * 100}%)` }}
                 >
-                  <div className=" flex gap-x-6 ">
+                  {" "}
+                  <div className=" flex gap-x-10 justify-center items-center">
                     <div className="">
                       <img
                         src={project.image}
                         alt=""
-                        className="w-72 h-72 border-2 rounded-full border-[#A6A9AA]"
+                        className="w-96 h-96 border-2 rounded-full border-[#A6A9AA]"
                       />
                     </div>
-
                     <div className="">
+                      {" "}
+                      <span className="absolute text-sm left-[24rem]">&lt;p&gt;</span>
                       <a href={project.url} target="_blank" rel="noopener noreferrer">
-                        <h3 className="font-Kode text-5xl mt-4 text-[#02F74C]">{project.title}</h3>
+                        <h3 className="font-Kode text-5xl mt-6 text-[#02F74C]">{project.title}</h3>
                       </a>
-                      <p className="w-96 font-code text-lg font-semibold mt-1">{project.description}</p>
-                    </div>
+                      <p className="w-96  font-code text-xl font-semibold mt-1">
+                        {project.description}
+                      </p>
+                      <span className=" text-sm absolute  left-[24rem]">&lt;/p&gt;</span>
+                    </div>{" "}
                   </div>
                 </div>
               ))}
@@ -111,11 +114,9 @@ const Projects = () => {
                 <img src={forward} alt="forward-arrow" />
               </button>
             </div>
-
-            <span className="mt-4 text-sm absolute top-[68rem] left-[44rem]">&lt;/p&gt;</span>
           </div>
         </div>
-        <hr className="border-[#1D5D33] w-72 mt-10 border-2" />
+        <hr className="border-[#1D5D33] w-72  border-2" />
       </div>
     </section>
   );

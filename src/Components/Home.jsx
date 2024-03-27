@@ -24,7 +24,7 @@ const Home = ({ name, title }) => {
             <span className="text-sm">&lt;/p&gt;</span>{" "}
           </p>
         </div>
-        <div className="">
+        <div className="relativ">
           <span
             className="w-72 h-72 border-r-2 border-r-gray border -rotate-[40deg] bottom-[15rem] border-transparent rounded-[50%] left-[63rem] absolute 
           after:absolute after:w-2 after:h-2 after:bg-white after:ring-2 after:rounded-full after:ring-green-400/50 after:shadow-md after:content-[''] after:shadow-white
@@ -34,6 +34,18 @@ const Home = ({ name, title }) => {
           
           "
           ></span>
+          <span
+            className=" after:absolute animate-ring after:w-2 after:h-2 after:bg-white after:ring-2 after:rounded-full after:ring-green-400/50 after:shadow-md after:content-[''] after:shadow-white
+          after:bottom-[22.8rem] after:right-[31rem]
+          before:absolute before:w-2 before:h-2 before:bg-white before:ring-2 before:rounded-full before:ring-green-400/50 before:shadow-md before:content-[''] before:shadow-white
+          before:bottom-[31.6rem] before:right-[22rem]"
+          ></span>
+          <span
+            className=" after:absolute after:w-2 after:h-2 after:bg-white after:ring-2 after:rounded-full after:ring-green-400/50 after:shadow-md after:content-[''] after:shadow-white
+          after:bottom-[15.8rem] after:right-[24rem]
+          before:absolute before:w-2 before:h-2 before:bg-white before:ring-2 before:rounded-full before:ring-green-400/50 before:shadow-md before:content-[''] before:shadow-white
+          before:bottom-[24.6rem] before:right-[15rem]"
+          ></span>
           <div
             className="w-56 h-56 rounded-full border relative border-[#A6A9AA] flex justify-center items-center after:w-64 after:h-64  after:absolute after:border-t-gray after:border-t-2 after:border after:-rotate-45  after:border-transparent  after:rounded-[50%] 
           before:w-64 before:h-64  before:absolute before:border-b-gray before:border-b-2 before:border before:border-transparent 
@@ -42,8 +54,9 @@ const Home = ({ name, title }) => {
           >
             <p>
               {" "}
-              <span className="text-[#02F74C]">
-                <span className="text-sm">&lt;</span>Download Cv
+              <span className="text-greenSecondary font-Ubuntu">
+                <span className="text-sm">&lt;</span>
+                <span className="text-xl ">Download Cv</span>
                 <span className="text-sm">/&gt;</span>
               </span>
             </p>
