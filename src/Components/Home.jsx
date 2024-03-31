@@ -6,7 +6,7 @@ const Home = ({ name, title }) => {
   return (
     <section id="home" className=" scroll-x-hidden w-full h-screen bg-black ">
       <Header />
-      <div className="text-white flex justify-around font-medium mx-24 mt-16">
+      <div className="text-white flex justify-around font-medium mx-24 mt-20">
         <div className="text-[#A6A9AA]">
           <p className="">
             <span className="text-sm">&lt;p&gt;</span>
@@ -24,41 +24,34 @@ const Home = ({ name, title }) => {
             <span className="text-sm">&lt;/p&gt;</span>{" "}
           </p>
         </div>
-        <div className="relativ">
-          <span
-            className="w-72 h-72 border-r-2 border-r-gray border -rotate-[40deg] bottom-[15rem] border-transparent rounded-[50%] left-[63rem] absolute 
-          after:absolute after:w-2 after:h-2 after:bg-white after:ring-2 after:rounded-full after:ring-green-400/50 after:shadow-md after:content-[''] after:shadow-white
-          after:bottom-[15.6rem] after:right-12
-          before:absolute before:w-2 before:h-2 before:bg-white before:ring-2 before:rounded-full before:ring-green-400/50 before:shadow-md before:content-[''] before:shadow-white
-          before:top-[15.6rem] before:right-12
-          
+        <div className="">
+          {/* <span
+            className="w-72 h-72 border-r-2 border-r-gray border -rotate-[42deg] bottom-[16.7rem] border-transparent rounded-[50%] left-[63rem] absolute  animate-spi
           "
-          ></span>
-          <span
-            className=" after:absolute animate-ring after:w-2 after:h-2 after:bg-white after:ring-2 after:rounded-full after:ring-green-400/50 after:shadow-md after:content-[''] after:shadow-white
-          after:bottom-[22.8rem] after:right-[31rem]
-          before:absolute before:w-2 before:h-2 before:bg-white before:ring-2 before:rounded-full before:ring-green-400/50 before:shadow-md before:content-[''] before:shadow-white
-          before:bottom-[31.6rem] before:right-[22rem]"
-          ></span>
-          <span
-            className=" after:absolute after:w-2 after:h-2 after:bg-white after:ring-2 after:rounded-full after:ring-green-400/50 after:shadow-md after:content-[''] after:shadow-white
-          after:bottom-[15.8rem] after:right-[24rem]
-          before:absolute before:w-2 before:h-2 before:bg-white before:ring-2 before:rounded-full before:ring-green-400/50 before:shadow-md before:content-[''] before:shadow-white
-          before:bottom-[24.6rem] before:right-[15rem]"
-          ></span>
+          ></span> */}
+          <span className=""></span>
+          <span className=""></span>
           <div
-            className="w-56 h-56 rounded-full border relative border-[#A6A9AA] flex justify-center items-center after:w-64 after:h-64  after:absolute after:border-t-gray after:border-t-2 after:border after:-rotate-45  after:border-transparent  after:rounded-[50%] 
-          before:w-64 before:h-64  before:absolute before:border-b-gray before:border-b-2 before:border before:border-transparent 
+            className="w-56 h-56 rounded-full border relative border-[#A6A9AA] flex justify-center items-center  after:w-64 after:h-64  after:absolute after:border-t-gray after:border-t-2 after:border after:-rotate-45  after:animate-spin after:border-transparent  after:rounded-[50%] 
+          before:w-64 before:h-64  before:absolute before:border-b-gray before:border-b-2 before:border before:border-transparent before:animate-spin
           before:-rotate-45 before:top- before:rounded-[50%] 
           "
           >
+            {" "}
             <p>
               {" "}
-              <span className="text-greenSecondary font-Ubuntu">
-                <span className="text-sm">&lt;</span>
-                <span className="text-xl ">Download Cv</span>
+              <span className="text-greenSecondary font-Ubuntu ">
+                <span className="text-sm">&lt;</span>{" "}
+                <a
+                  href="https://www.showwcase.com/mishbabagban373/resume/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xl"
+                >
+                  Check Resume{" "}
+                </a>
                 <span className="text-sm">/&gt;</span>
-              </span>
+              </span>{" "}
             </p>
           </div>
         </div>
