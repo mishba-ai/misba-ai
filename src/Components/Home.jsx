@@ -32,26 +32,26 @@ const Home = ({ name, title }) => {
           <span className=""></span>
           <span className=""></span>
           <div
-            className="w-56 h-56 rounded-full border relative border-[#A6A9AA] flex justify-center items-center  after:w-64 after:h-64  after:absolute after:border-t-gray after:border-t-2 after:border after:-rotate-45  after:animate-spin after:border-transparent  after:rounded-[50%] 
-          before:w-64 before:h-64  before:absolute before:border-b-gray before:border-b-2 before:border before:border-transparent before:animate-spin
-          before:-rotate-45 before:top- before:rounded-[50%] 
+            className="w-48 h-48 rounded-full border relative border-[#A6A9AA] flex justify-center items-center  after:w-64 after:h-64  after:absolute after:border-t-gray after:border-t-2 after:border after:-rotate-45  after:animate-spi after:border-transparent  after:rounded-[50%] 
+          before:w-64 before:h-64  before:absolute before:border-b-gray before:border-b-2 before:border before:border-transparent before:animate-spi
+          before:-rotate-45 before:top- before:rounded-[50%] after:pointer-events-none before:pointer-events-none
           "
           >
             {" "}
             <p>
               {" "}
-              <span className="text-greenSecondary font-Ubuntu ">
-                <span className="text-sm">&lt;</span>{" "}
-                <a
-                  href="https://www.showwcase.com/mishbabagban373/resume/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-xl"
-                >
-                  Check Resume{" "}
-                </a>
-                <span className="text-sm">/&gt;</span>
-              </span>{" "}
+              <a
+                href="https://www.showwcase.com/mishbabagban373/resume/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:animate-pulse"
+              >
+                <span className="text-greenSecondary font-Ubuntu ">
+                  {" "}
+                  <span className="text-sm">&lt;</span> Check Resume{" "}
+                  <span className="text-sm">/&gt;</span>
+                </span>{" "}
+              </a>{" "}
             </p>
           </div>
         </div>
