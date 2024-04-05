@@ -15,24 +15,28 @@ const Projects = () => {
       description:
         "Your go-to platform for developers worldwide to find partners, collaborate on projects, and join hackathons. Expand your network, unleash creativity, and be part of a thriving tech community.",
       url: "https://connect-devs.netlify.app/",
+      code: "https://github.com/mishba-ai/Connect-Devs",
     },
     {
       title: "Bibliophile",
       description:
         "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
       url: "",
+      code: "https://github.com/mishba-ai/Bibliophile",
     },
     {
       title: "Neurons",
       description:
         "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
       url: "",
+      code: "https://github.com/mishba-ai/Neurons",
     },
     {
       title: "Nomad Nest",
       description:
         "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
       url: "",
+      code: "",
     },
   ];
 
@@ -53,14 +57,14 @@ const Projects = () => {
   return (
     <section className="h-screen w-full bg-black overflow-y-hidden">
       <div className="flex justify-center items-center pt-8  flex-col">
-        <p className="text-[#A6A9AA]">
+        <p className="text-gray">
           {" "}
           <span className="text-sm">&lt;h2&gt;</span>
           <div className="text-white font-Kode text-7xl mx-4">MY Portfolio</div>
           <span className="relative left-[30rem] text-sm">&lt;/h2&gt;</span>
         </p>
 
-        <div className="flex mt-16 text-[#A6A9AA] gap-x-6 overflow-hidden">
+        <div className="flex mt-16 text-gray gap-x-6 overflow-hidden">
           <div className="w-ful overflow-hidden relative">
             {/* carousel items */}
 
@@ -72,12 +76,12 @@ const Projects = () => {
                   style={{ transform: `translate(-${(index - currentIndex) * 100}%)` }}
                 >
                   {" "}
-                  <div className=" flex gap-x-10 justify-center items-center">
+                  <div className=" flex gap-x-10 justify-center items-center ">
                     <div className="">
                       <img
                         src={project.image}
                         alt=""
-                        className="w-96 h-96 border-2 rounded-full border-[#A6A9AA]"
+                        className="w-96 h-96  border-2 rounded-full border-gray"
                       />
                     </div>
                     <div className="flex flex-col">
@@ -85,19 +89,21 @@ const Projects = () => {
                       <div>
                         {" "}
                         <div className="absolute text-sm left-[24rem]">&lt;p&gt;</div>
-                        <a href={project.url} target="_blank" rel="noopener noreferrer">
-                          <h3 className="font-Kode text-5xl mt-6 text-[#02F74C]">
-                            {project.title}
-                          </h3>
-                        </a>
+                        <h3 className="font-Kode text-5xl mt-6 text-greenPrimary">
+                          {project.title}
+                        </h3>
                         <p className="w-96  font-code text-xl font-semibold mt-1">
                           {project.description}
                         </p>
                         <div className=" text-sm absolute  left-[24rem]">&lt;/p&gt;</div>
                       </div>
                       <div className="flex gap-x-6 mt-6 justify-end">
-                        <img src={scode} alt="" className="h-8 w-8" />
-                        <img src={link} alt="" className="h-8 w-8 " />
+                        <a href={project.code} target="_blank" rel="noopener noreferrer">
+                          <img src={scode} alt="" className="h-8 w-8" />
+                        </a>
+                        <a href={project.url} target="_blank" rel="noopener noreferrer">
+                          <img src={link} alt="" className="h-8 w-8 " />{" "}
+                        </a>
                       </div>
                     </div>{" "}
                   </div>

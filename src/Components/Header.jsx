@@ -14,7 +14,6 @@ const Header = () => {
           href="#projects"
           className="hover:border-2 hover:border-[#19C84A] hover:text-[#19C84A] px-1 py-1 hover:translate-x-2 w-44 text-center"
         >
-          {" "}
           {"//"}02. &lt;Projects/&gt;
         </a>
       </div>

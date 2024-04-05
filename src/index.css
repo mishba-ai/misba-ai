@@ -10,6 +10,7 @@
   --greenPrimary :#02F74C;
   --greenSecondary :#19C84A;
   --gray : #A6A9AA;
+  --primaryPurple:#b88ae6;
 }
 
 /* SCROLLBAR customization */
@@ -28,3 +29,4 @@
 ::-webkit-scrollbar-track {
   background: #1D5D33;
 }
+

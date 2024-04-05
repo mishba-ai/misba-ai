@@ -7,10 +7,10 @@ const Home = ({ name, title }) => {
     <section id="home" className=" scroll-x-hidden w-full h-screen bg-black ">
       <Header />
       <div className="text-white flex justify-around font-medium mx-24 mt-20">
-        <div className="text-[#A6A9AA]">
+        <div className="text-gray">
           <p className="">
             <span className="text-sm">&lt;p&gt;</span>
-            <span className="text-[#02F74C] text-sm font-code  font-semibold">This is</span>
+            <span className="text-greenPrimary text-sm font-code  font-semibold">This is</span>
             <span className="text-sm"> &lt;/p&gt;</span>
           </p>
           <h1 className="mt-4 mx-16">
@@ -20,7 +20,7 @@ const Home = ({ name, title }) => {
           </h1>
           <p className="mt-4">
             <span className="text-sm">&lt;p&gt;</span>{" "}
-            <span className="text-[#02F74C]  font-code text-lg font-medium">{title}</span>
+            <span className="text-greenPrimary  font-code text-lg font-medium">{title}</span>
             <span className="text-sm">&lt;/p&gt;</span>{" "}
           </p>
         </div>
@@ -32,8 +32,8 @@ const Home = ({ name, title }) => {
           <span className=""></span>
           <span className=""></span>
           <div
-            className="w-52 h-52 rounded-full border relative border-[#A6A9AA] flex justify-center items-center  after:w-64 after:h-64  after:absolute after:border-t-gray after:border-t-2 after:border after:-rotate-45  after:animate-spi after:border-transparent  after:rounded-[50%] 
-          before:w-64 before:h-64  before:absolute before:border-b-gray before:border-b-2 before:border before:border-transparent before:animate-spi
+            className="w-60  h-60 rounded-full border-2 relative border-gray flex justify-center items-center  after:w-64 after:h-64  after:absolute after:border-t-greenPrimary after:border-t-2 after:border after:-rotate-45  after:animate-spin after:border-transparent  after:rounded-[50%] 
+          before:w-64 before:h-64  before:absolute before:border-b-greenPrimary before:border-b-2 before:border before:border-transparent before:animate-spin
           before:-rotate-45 before:to before:rounded-[50%] after:pointer-events-none before:pointer-events-none
           "
           >

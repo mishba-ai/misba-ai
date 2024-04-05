@@ -1,15 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-
-import devDotToIcon from "../images/socials/devdotto.svg";
-// import envelopeIcon from "../images/socials/envelope.svg";
-// import gitHubIcon from "../images/socials/github.svg";
-// import instagramIcon from "../images/socials/instagram.svg";
-// import linkedInIcon from "../images/socials/linkedin.svg";
-// import mediumIcon from "../images/socials/medium.svg";
-// import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
-// import hashnode from "../images/socials/hashnode.svg";
 
 const Footer = (props) => {
   const { devDotTo, email, gitHub, linkedIn, medium, name, twitter, youTube } = props;
@@ -17,7 +8,7 @@ const Footer = (props) => {
   return (
     <div
       id="footer"
-      className=" bg-black flex flex-col text-[#A6A9AA] font-medium justify-center items-center w-full gap-[2.5rem] pt-[1rem] pr-0 pb-[3rem]"
+      className=" bg-black flex flex-col text-gray font-medium justify-center items-center w-full gap-[2.5rem] pt-[1rem] pr-0 pb-[3rem]"
     >
       <div className="">
         {" "}
@@ -26,7 +17,7 @@ const Footer = (props) => {
         <span className="text-sm relative left-[40rem]">&lt;/h3&gt;</span>
       </div>
 
-      <div className="flex  gap-8 justify-center font-Ubuntu text-[#A6A9AA]">
+      <div className="flex  gap-8 justify-center font-Ubuntu text-gray">
         <div className="">
           {email && (
             <a
