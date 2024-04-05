@@ -15,7 +15,7 @@ const Home = ({ name, title }) => {
           </p>
           <h1 className="mt-4 mx-16">
             <span className="text-sm">&lt;h1&gt;</span>
-            <div className="text-7xl w-56 text-white mx-10 font-Kode">{name}</div>
+            <div className="text-8xl w-56 text-white mx-10 font-Kode">{name}</div>
             <span className="text-sm">&lt;/h1&gt;</span>
           </h1>
           <p className="mt-4">
@@ -32,9 +32,9 @@ const Home = ({ name, title }) => {
           <span className=""></span>
           <span className=""></span>
           <div
-            className="w-48 h-48 rounded-full border relative border-[#A6A9AA] flex justify-center items-center  after:w-64 after:h-64  after:absolute after:border-t-gray after:border-t-2 after:border after:-rotate-45  after:animate-spi after:border-transparent  after:rounded-[50%] 
+            className="w-52 h-52 rounded-full border relative border-[#A6A9AA] flex justify-center items-center  after:w-64 after:h-64  after:absolute after:border-t-gray after:border-t-2 after:border after:-rotate-45  after:animate-spi after:border-transparent  after:rounded-[50%] 
           before:w-64 before:h-64  before:absolute before:border-b-gray before:border-b-2 before:border before:border-transparent before:animate-spi
-          before:-rotate-45 before:top- before:rounded-[50%] after:pointer-events-none before:pointer-events-none
+          before:-rotate-45 before:to before:rounded-[50%] after:pointer-events-none before:pointer-events-none
           "
           >
             {" "}

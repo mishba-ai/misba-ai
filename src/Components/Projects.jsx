@@ -3,6 +3,8 @@ import connectdevs from "../images/connectdevs.png";
 import { useState } from "react";
 // import backward from "../images/backward.svg";
 import forward from "../images/forward.svg";
+import link from "../images/socials/link.svg";
+import scode from "../images/socials/scode.svg";
 
 const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -78,16 +80,25 @@ const Projects = () => {
                         className="w-96 h-96 border-2 rounded-full border-[#A6A9AA]"
                       />
                     </div>
-                    <div className="">
+                    <div className="flex flex-col">
                       {" "}
-                      <span className="absolute text-sm left-[24rem]">&lt;p&gt;</span>
-                      <a href={project.url} target="_blank" rel="noopener noreferrer">
-                        <h3 className="font-Kode text-5xl mt-6 text-[#02F74C]">{project.title}</h3>
-                      </a>
-                      <p className="w-96  font-code text-xl font-semibold mt-1">
-                        {project.description}
-                      </p>
-                      <span className=" text-sm absolute  left-[24rem]">&lt;/p&gt;</span>
+                      <div>
+                        {" "}
+                        <div className="absolute text-sm left-[24rem]">&lt;p&gt;</div>
+                        <a href={project.url} target="_blank" rel="noopener noreferrer">
+                          <h3 className="font-Kode text-5xl mt-6 text-[#02F74C]">
+                            {project.title}
+                          </h3>
+                        </a>
+                        <p className="w-96  font-code text-xl font-semibold mt-1">
+                          {project.description}
+                        </p>
+                        <div className=" text-sm absolute  left-[24rem]">&lt;/p&gt;</div>
+                      </div>
+                      <div className="flex gap-x-6 mt-6 justify-end">
+                        <img src={scode} alt="" className="h-8 w-8" />
+                        <img src={link} alt="" className="h-8 w-8 " />
+                      </div>
                     </div>{" "}
                   </div>
                 </div>

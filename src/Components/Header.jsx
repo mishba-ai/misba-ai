@@ -1,4 +1,5 @@
 import React from "react";
+import portfoliologo from "../images/portfoliologo.png";
 const Header = () => {
   return (
     <div className="justify-around  flex bg-transparent font-semibold  w-full z-10 pt-6 text-lg text-[#A6A9AA] font-code">
@@ -16,6 +17,9 @@ const Header = () => {
           {" "}
           {"//"}02. &lt;Projects/&gt;
         </a>
+      </div>
+      <div>
+        <img src={portfoliologo} alt="" className="w-20 h-20" />
       </div>
       <div className="flex flex-col gap-y-3">
         <a
