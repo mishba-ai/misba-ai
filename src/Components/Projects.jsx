@@ -133,7 +133,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <hr className="border-[#1D5D33] w-72  border-2" />
+        <hr className="border-darkgreen w-72  border-2" />
       </div>
     </section>
   );

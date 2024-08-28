@@ -1,12 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Header from "./Header";
+// import {link} from "react-router-dom";
 
-const Home = ({ name, title }) => {
+const Home = () => {
   return (
-    <section id="home" className=" scroll-x-hidden w-full h-screen bg-black ">
+    <section id="home" className=" scroll-x-hidden flex justify-center min-h-screen bg-[#0e0e0e] ">
       <Header />
-      <div className="text-white flex justify-around font-medium mx-24 mt-20">
+
+      <div>
+        <h2>Hey,I am misba </h2>
+      </div>
+      {/* <div className="text-white flex justify-around font-medium mx-24 w-[44rem] mt-20">
         <div className="text-gray">
           <p className="">
             <span className="text-sm">&lt;p&gt;</span>
@@ -25,16 +30,16 @@ const Home = ({ name, title }) => {
           </p>
         </div>
         <div className="">
-          {/* <span
+          <span
             className="w-72 h-72 border-r-2 border-r-gray border -rotate-[42deg] bottom-[16.7rem] border-transparent rounded-[50%] left-[63rem] absolute  animate-spi
           "
-          ></span> */}
+          ></span>
           <span className=""></span>
           <span className=""></span>
           <div
             className="w-60  h-60 rounded-full border-2 relative border-gray flex justify-center items-center  after:w-64 after:h-64  after:absolute after:border-t-greenPrimary after:border-t-2 after:border after:-rotate-45  after:animate-spin after:border-transparent  after:rounded-[50%] 
           before:w-64 before:h-64  before:absolute before:border-b-greenPrimary before:border-b-2 before:border before:border-transparent before:animate-spin
-          before:-rotate-45 before:to before:rounded-[50%] after:pointer-events-none before:pointer-events-none
+          before:-rotate-45 before:to before:rounded-[50%] after:pointer-events-none before:pointer-events-none 
           "
           >
             {" "}
@@ -55,7 +60,7 @@ const Home = ({ name, title }) => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

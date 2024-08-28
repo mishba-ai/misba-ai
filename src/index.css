@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Nanum+Gothic+Coding&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Nanum+Gothic+Coding&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --greenPrimary :#02F74C;
-  --greenSecondary :#19C84A;
-  --gray : #A6A9AA;
-  --primaryPurple:#b88ae6;
+  --greenPrimary: #02f74c;
+  --greenSecondary: #19c84a;
+  --gray: #a6a9aa;
+  --primaryPurple: #b88ae6;
+  --lightpurple: #e0aaff;
+  --darkgreen: #1d5d33;
 }
-
+/* ab51e3 */
 /* SCROLLBAR customization */
 /* width */
 ::-webkit-scrollbar {
@@ -20,13 +22,12 @@
 }
 /* color */
 ::-webkit-scrollbar-thumb {
-  background: #19C84A;
+  background: #19c84a;
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #02F74C;
+  background: #02f74c;
 }
 ::-webkit-scrollbar-track {
-  background: #1D5D33;
+  background: #1d5d33;
 }
-

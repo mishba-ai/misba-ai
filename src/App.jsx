@@ -3,7 +3,7 @@ import Projects from "./Components/Projects";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import Press from "./Components/Press";
-import Wavyline from "./Components/Wavyline";
+
 
 const siteProps = {
   name: "MISBA BAGBAN",
@@ -19,10 +19,10 @@ const App = () => {
     <div id="main" className="overflow-x-hidden	">
       {/* <Header /> */}
       <Home title={siteProps.title} name={siteProps.name} />
-      <Projects />
+      {/* <Projects />
       <Press />
-      <Wavyline />
-      <Footer {...siteProps} />
+    
+      <Footer {...siteProps} /> */}
     </div>
   );
 };

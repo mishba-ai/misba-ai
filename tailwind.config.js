@@ -21,6 +21,7 @@ module.exports = {
         greenPrimary: "var(--greenPrimary)",
         greenSecondary: "var(--greenSecondary)",
         gray: "var(--gray)",
+        darkgreen: "var(--darkgreen)",
       },
     },
   },
