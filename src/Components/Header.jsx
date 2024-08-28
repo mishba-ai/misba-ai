@@ -3,16 +3,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
-    <div className="flex bg-transparent font-medium text-violet-400 w-[36rem] h-10 mt-9 bg-red- text-lg text-gray font-Kode ">
+    <div className="flex bg-transparent font-medium text-violet-400 w-[36rem] h-10 mt-9 bg-red- text-xl text-gray font-Kode ">
       <ul className="flex justify-center items-center gap-x-6">
-        <Link to="">
+        <Link to="/">
           <li>Home</li>
         </Link>
-        <Link to="">
+        <Link to="/projects">
           {" "}
           <li>Projects</li>
         </Link>
-        <Link to="">
+        <Link to="/blog">
           <li>Blog</li>
         </Link>
       </ul>

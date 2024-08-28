@@ -6,14 +6,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --greenPrimary: #02f74c;
-  --greenSecondary: #19c84a;
-  --gray: #a6a9aa;
-  --primaryPurple: #b88ae6;
-  --lightpurple: #e0aaff;
-  --darkgreen: #1d5d33;
-}
+
 /* ab51e3 */
 /* SCROLLBAR customization */
 /* width */
@@ -22,12 +15,12 @@
 }
 /* color */
 ::-webkit-scrollbar-thumb {
-  background: #19c84a;
+  background: #4b4b4b;
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #02f74c;
+  background: #676c68;
 }
 ::-webkit-scrollbar-track {
-  background: #1d5d33;
+  background: #1f2220;
 }
