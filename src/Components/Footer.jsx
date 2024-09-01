@@ -1,15 +1,19 @@
 import React from "react";
-import youTubeIcon from "../images/socials/youtube.svg";
+
+import copyright from "../images/svg/copyright.svg";
 
 const Footer = () => {
-  // const { devDotTo, email, gitHub, linkedIn, medium, name, twitter, youTube } 
+ 
 
   return (
     <div
       id="footer"
-      className=" bg-black flex flex-col text-gray font-medium justify-center items-center w-full gap-[2.5rem] pt-[1rem] pr-0 pb-[3rem]"
+      className=" bg-neutral-9 flex text-neutral-500 mt-14 justify-start items-center w-full   pb-[2rem]"
     >
-      <p className=" mt-0 font-Kode text-sm"></p>
+      <span className="flex gap-x-2">
+        <img src={copyright} alt="" />
+        <p>Misba Bagban . All Rights Reserved</p>
+      </span>
     </div>
   );
 };

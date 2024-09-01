@@ -1,6 +1,6 @@
 import React from "react";
-import githublink from "../images/svg/githublink.svg";
-import link from "../images/svg/link.svg";
+import githublink from "../images/socials/githublink.svg";
+import link from "../images/socials/link.svg";
 import connectdevs from "../images/connectdevs.png";
 import { useState } from "react";
 import PropTypes from "prop-types";
@@ -10,7 +10,7 @@ const ProjectItem = ({ project, isHovered, onHover, onLeave }) => (
     <h1
       onMouseEnter={onHover}
       onMouseLeave={onLeave}
-      className="text-2xl text-violet-300 font-Kode "
+      className="text-2xl text-violet-300 w-40  font-Kode "
     >
       {project.title}
     </h1>
