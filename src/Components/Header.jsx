@@ -2,6 +2,17 @@ import React from "react";
 // import portfoliologo from "../images/portfoliologo.png";
 import { Link } from "react-router-dom";
 const Header = () => {
+  // current page is highlighted
+  const currentPage = window.location.pathname;
+  //if current page is home then  underline the home li,same for other pages
+  // function for highlighting the current page
+  // const highlightCurrentPage = (page) => {
+  //   if (currentPage === page) {
+  //     return "underline underline-thickness[2px] underline-offset[5px] underline-violet-400";
+  //   }
+  //
+  // };
+
   return (
     <div className="flex bg-transparent font-medium text-violet-400 w-[36rem] h-10 mt-9 bg-red- text-xl text-gray font-Kode ">
       <ul className="flex justify-center items-center gap-x-6">

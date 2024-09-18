@@ -83,7 +83,7 @@ export default function Home() {
               >
                 <div>
                   <img src={blog.icon} alt={blog.name} className="w-8 h-8" />
-                  {/* {blog.name} */}
+                  {blog.name}
                 </div>
                 <div>
                   <a href={blog.link} target="_blank" rel="noreferrer">

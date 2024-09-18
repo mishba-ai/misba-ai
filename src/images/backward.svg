@@ -1,0 +1,7 @@
+<svg id='Interface Arrows Button Left' width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><rect width='24' height='24' stroke='none' fill='#000000' opacity='0'/>
+
+
+<g transform="matrix(2.22 0 0 2.22 12 12)" >
+<path style="stroke: rgb(0,0,0); stroke-width: 1; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" transform=" translate(-5, -5)" d="M 7.25 9.5 L 2.9 5.354 C 2.805958299312365 5.260195736989833 2.753106216314581 5.1328272608582415 2.753106216314581 5 C 2.753106216314581 4.8671727391417585 2.805958299312365 4.739804263010167 2.9 4.646 L 7.25 0.5" stroke-linecap="round" />
+</g>
+</svg>
