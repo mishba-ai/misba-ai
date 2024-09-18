@@ -1,9 +1,13 @@
 import React from "react";
 // import portfoliologo from "../images/portfoliologo.png";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+
 const Header = () => {
   // current page is highlighted
   const currentPage = window.location.pathname;
+  const location = useLocation();
+
   //if current page is home then  underline the home li,same for other pages
   // function for highlighting the current page
   // const highlightCurrentPage = (page) => {
@@ -25,6 +29,9 @@ const Header = () => {
         </Link>
         <Link to="/blog">
           <li>Blog</li>
+        </Link>
+        <Link to="/contact-me">
+          <li>Contact Me</li>
         </Link>
       </ul>
     </div>
