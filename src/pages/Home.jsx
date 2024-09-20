@@ -43,9 +43,9 @@ export default function Home() {
     // },
   ];
   return (
-    <div className="">
-      <h2 className="font-Ubuntu text-2xl">Hey, I am Misba 🙋🏻‍♀️</h2>
-      <p className="mt-4 font-Kode text-slate-300">
+    <div className="w-full max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center">
+      <h2 className="font-Ubuntu text-2xl max-sm:text-lg">Hey, I am Misba 🙋🏻‍♀️</h2>
+      <p className="mt-4 font-Kode text-slate-300 max-sm:flex max-sm:flex-col max-sm:flex-wrap max-sm:break-words">
         I&apos;m a{" "}
         <span className="h-2 p-1 bg-neutral-800 border border-neutral-700 rounded text-sm text-violet-200 borde w-16">
           Frontend Developer
@@ -75,7 +75,7 @@ export default function Home() {
         </p>
 
         <div className="mt-6">
-          <ul className="flex gap-x-5 w-full text-lg">
+          <ul className="flex gap-x-5 w-full text-lg max-sm:flex-col">
             {blogLinks.map((blog) => (
               <li
                 className="flex w-1/2 h-28 px-12 justify-between bg-neutral-800 hover:bg-neutral-700 transition-colors duration-300  rounded-lg items-center mt-4"

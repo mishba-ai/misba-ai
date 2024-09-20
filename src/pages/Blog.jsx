@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import hashnode from "../images/socials/hashnode.svg";
 import substack from "../images/socials/substack.svg";
 import blink from "../images/socials/blink.svg";
+import microsoft from "../images/socials/microsoft.svg";
 
 export default function Blog() {
   const blogLinks = [
@@ -14,6 +15,11 @@ export default function Blog() {
       name: "Substack",
       link: "https://substack.com/@misbacodes",
       icon: substack,
+    },
+    {
+      name: "EduBlog",
+      link: "https://techcommunity.microsoft.com/t5/user/viewprofilepage/user-id/2505670#profile",
+      icon: microsoft,
     },
   ];
 

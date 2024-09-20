@@ -5,33 +5,28 @@ import { useLocation } from "react-router-dom";
 
 const Header = () => {
   // current page is highlighted
-  const currentPage = window.location.pathname;
+  // const currentPage = window.location.pathname;
   const location = useLocation();
 
-  //if current page is home then  underline the home li,same for other pages
-  // function for highlighting the current page
-  // const highlightCurrentPage = (page) => {
-  //   if (currentPage === page) {
-  //     return "underline underline-thickness[2px] underline-offset[5px] underline-violet-400";
-  //   }
-  //
-  // };
+  const isCurrentPage = (page) => {
+    return location.pathname === page ? "underline underline-offset-4 underline-violet-400 " : "";
+  };
 
   return (
-    <div className="flex bg-transparent font-medium text-violet-400 w-[36rem] h-10 mt-9 bg-red- text-xl text-gray font-Kode ">
-      <ul className="flex justify-center items-center gap-x-6">
+    <div className="flex max-sm:flex-col bg-transparent font-medium text-violet-400 w-[36rem] h-10 mt-9 bg-red- text-xl text-gray font-Kode max-sm:text-lg">
+      <ul className="flex justify-center items-center gap-x-6 max-sm:gap-x-3">
         <Link to="/">
-          <li>Home</li>
+          <li className={`${isCurrentPage("/")}`}>Home</li>
         </Link>
         <Link to="/projects">
           {" "}
-          <li>Projects</li>
+          <li className={`${isCurrentPage("/projects")}`}>Projects</li>
         </Link>
         <Link to="/blog">
-          <li>Blog</li>
+          <li className={`${isCurrentPage("/blog")}`}>Blog</li>
         </Link>
         <Link to="/contact-me">
-          <li>Contact Me</li>
+          <li className={`${isCurrentPage("/contact-me")}`}>Contact Me</li>
         </Link>
       </ul>
     </div>
