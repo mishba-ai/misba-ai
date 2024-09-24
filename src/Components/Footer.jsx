@@ -3,8 +3,6 @@ import React from "react";
 import copyright from "../images/svg/copyright.svg";
 
 const Footer = () => {
- 
-
   return (
     <div
       id="footer"
