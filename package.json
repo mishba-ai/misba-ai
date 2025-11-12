@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My Portfolio",
   "source": "src/index.html",
-  "homepage": "https://github.com/mishba-ai/Skillfolio",
+  "homepage": "https://github.com/mishba-ai/misba-ai",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mishba-ai/Skillfolio.git"
+    "url": "git+https://github.com/mishba-ai/misba-ai.git"
   },
   "author": "Misba",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mishba-ai/Skillfolio/issues"
+    "url": "https://github.com/mishba-ai/misba-ai/issues"
   },
   "dependencies": {
     "@p5-wrapper/react": "^4.1.2",
