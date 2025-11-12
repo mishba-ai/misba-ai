@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My Portfolio",
   "source": "src/index.html",
-  "homepage": "https://github.com/mishba-ai/misba-ai",
+  "homepage": "https://github.com/misba-ai",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
