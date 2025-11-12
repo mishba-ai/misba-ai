@@ -4,7 +4,7 @@ import "./index.css";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Projects from "./pages/Projects.jsx";
-import Blog from "./pages/Blog.jsx";
+// import Blog from "./pages/Blog.jsx";
 import Layout from "./Layout.jsx";
 import Contactme from "./pages/Contactme.jsx";
 const router = createHashRouter(
@@ -14,7 +14,7 @@ const router = createHashRouter(
       children: [
         { path: "/", element: <Home /> },
         { path: "/projects", element: <Projects /> },
-        { path: "/blog", element: <Blog /> },
+        // { path: "/blog", element: <Blog /> },
         { path: "/contact-me", element: <Contactme /> },
       ],
     },
@@ -27,7 +27,8 @@ const router = createHashRouter(
 const root = createRoot(document.getElementById("app"));
 root.render(
   <React.StrictMode>
-    {/* If this doesn't show up, the crash is in createRoot/Parcel. */}
-    <h1>DEPLOYMENT SUCCESS!</h1>
+    {/* <RouterProvider router={router} />
+     */}
+    <Layout />
   </React.StrictMode>
 );
