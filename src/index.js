@@ -7,19 +7,18 @@ import Projects from "./pages/Projects.jsx";
 import Blog from "./pages/Blog.jsx";
 import Layout from "./Layout.jsx";
 import Contactme from "./pages/Contactme.jsx";
-const router = createHashRouter([
-  {
-    element: <Layout />,
-    children: [
-      { path: "/", element: <Home /> },
-      { path: "/projects", element: <Projects /> },
-      { path: "/blog", element: <Blog /> },
-      { path: "/contact-me", element: <Contactme /> },
-    ],
-  },
-],
-  { basename: "/misba-ai" }
-
+const router = createHashRouter(
+  [
+    {
+      element: <Layout />,
+      children: [
+        { path: "/", element: <Home /> },
+        { path: "/projects", element: <Projects /> },
+        { path: "/blog", element: <Blog /> },
+        { path: "/contact-me", element: <Contactme /> },
+      ],
+    },
+  ]
 );
 
 const root = createRoot(document.getElementById("app"));

@@ -1,19 +1,12 @@
 import React from "react";
-import hashnode from "../images/socials/hashnode.svg";
 import substack from "../images/socials/substack.svg";
 import blink from "../images/socials/blink.svg";
-import twitter from "../images/socials/twitter.svg";
+// import twitter from "../images/socials/twitter.svg";
 import linkedin from "../images/socials/linkedin.svg";
 import github from "../images/socials/githublink.svg";
-import medium from "../images/socials/medium.svg";
 
 export default function Home() {
   const blogLinks = [
-    {
-      name: "Hashnode",
-      link: "https://mishba.hashnode.dev/",
-      icon: hashnode,
-    },
     {
       name: "Substack",
       link: "https://substack.com/@misbacodes",
@@ -21,11 +14,11 @@ export default function Home() {
     },
   ];
   const socials = [
-    {
-      svg: twitter,
-      link: "https://twitter.com/misba_codes",
-      alt: "twitter",
-    },
+    // {
+    //   svg: twitter,
+    //   link: "https://twitter.com/misba_codes",
+    //   alt: "twitter",
+    // },
     {
       svg: linkedin,
       link: "https://www.linkedin.com/in/mishba-bagban/",
@@ -36,16 +29,11 @@ export default function Home() {
       link: "https://github.com/mishba-ai",
       alt: "github",
     },
-    // {
-    //   svg: medium,
-    //   link: "https://misba-taj.medium.com/",
-    //   alt: "medium",
-    // },
   ];
   return (
-    <div className="w-full max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center">
+    <div className="max-sm:p- flex-wrap flex">
       <h2 className="font-Ubuntu text-2xl max-sm:text-lg">Hey, I am Misba 🙋🏻‍♀️</h2>
-      <p className="mt-4 font-Kode text-slate-300 max-sm:flex max-sm:flex-col max-sm:flex-wrap max-sm:break-words">
+      <div className="mt-4 space-y-4  font-Kode text-slate-300 ">
         I&apos;m a{" "}
         <span className="h-2 p-1 bg-neutral-800 border border-neutral-700 rounded text-sm text-violet-200 borde w-16">
           Frontend Developer
@@ -64,9 +52,9 @@ export default function Home() {
         <br />
         <br /> Basically, I&apos;m all about creating awesome digital stuff that people will love to
         use!{" "}
-      </p>
+      </div>
 
-      <section className="mt-10 font-Kode text-slate-300">
+      <section className="mt-10 font-Kode text-slate-300 ">
         <p>
           I&apos;m passionate about sharing knowledge and engaging in public learning. My writing
           focuses on AI/ML topics I&apos;m currently exploring, as well as web development insights.
@@ -75,7 +63,7 @@ export default function Home() {
         </p>
 
         <div className="mt-6">
-          <ul className="flex gap-x-5 w-full text-lg max-sm:flex-col">
+          <ul className="flex  gap-x-3 text-lg ">
             {blogLinks.map((blog) => (
               <li
                 className="flex w-1/2 h-28 px-12 justify-between bg-neutral-800 hover:bg-neutral-700 transition-colors duration-300  rounded-lg items-center mt-4"

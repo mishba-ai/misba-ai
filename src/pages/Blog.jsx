@@ -6,21 +6,13 @@ import microsoft from "../images/socials/microsoft.svg";
 
 export default function Blog() {
   const blogLinks = [
-    {
-      name: "Hashnode",
-      link: "https://mishba.hashnode.dev/",
-      icon: hashnode,
-    },
+
     {
       name: "Substack",
       link: "https://substack.com/@misbacodes",
       icon: substack,
     },
-    {
-      name: "EduBlog",
-      link: "https://techcommunity.microsoft.com/t5/user/viewprofilepage/user-id/2505670#profile",
-      icon: microsoft,
-    },
+    
   ];
 
   const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
@@ -62,7 +54,7 @@ export default function Blog() {
   }, []);
 
   return (
-    <div className="text-neutral-400">
+    <div className="text-neutral-400 h-full">
       {/* {feedUrls.map((_, index) => (
         <div id={`feedContainer${index}`} key={index}></div>
       ))} */}
