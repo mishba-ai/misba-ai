@@ -2,11 +2,11 @@
   "name": "misba_ai",
   "version": "1.0.0",
   "description": "My Portfolio",
-  "source": "src/index.html",
+  "source": "index.html",
   "homepage": "https://mishba-ai.github.io/misba-ai",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "build-gh": "parcel build --public-url /misba-ai/",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
