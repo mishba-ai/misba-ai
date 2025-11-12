@@ -27,6 +27,7 @@ const router = createHashRouter(
 const root = createRoot(document.getElementById("app"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    {/* If this doesn't show up, the crash is in createRoot/Parcel. */}
+    <h1>DEPLOYMENT SUCCESS!</h1>
   </React.StrictMode>
 );
