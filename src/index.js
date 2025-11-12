@@ -1,13 +1,13 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Projects from "./pages/Projects.jsx";
 import Blog from "./pages/Blog.jsx";
 import Layout from "./Layout.jsx";
 import Contactme from "./pages/Contactme.jsx";
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     element: <Layout />,
     children: [
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     ],
   },
 ],
- { basename: "/misba-ai" }
+  { basename: "/misba-ai" }
 
 );
 
