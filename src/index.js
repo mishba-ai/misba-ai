@@ -17,7 +17,10 @@ const router = createBrowserRouter([
       { path: "/contact-me", element: <Contactme /> },
     ],
   },
-]);
+],
+ { basename: "/misba-ai" }
+
+);
 
 const root = createRoot(document.getElementById("app"));
 root.render(
