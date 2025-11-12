@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
-import hashnode from "../images/socials/hashnode.svg";
 import substack from "../images/socials/substack.svg";
 import blink from "../images/socials/blink.svg";
-import microsoft from "../images/socials/microsoft.svg";
 
 export default function Blog() {
   const blogLinks = [
@@ -12,7 +10,7 @@ export default function Blog() {
       link: "https://substack.com/@misbacodes",
       icon: substack,
     },
-    
+
   ];
 
   const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
@@ -32,12 +30,10 @@ export default function Blog() {
           <div class="p-4 border border-neutral-700 rounded-lg my-4">
 
             <a href="${item.querySelector("link").textContent}" target="_blank" rel="noreferrer">
-              <h3 class="text-xl font-Ubuntu text-violet-200">${
-                item.querySelector("title").textContent
-              }</h3>
+              <h3 class="text-xl font-Ubuntu text-violet-200">${item.querySelector("title").textContent
+            }</h3>
             </a>
-            <p class="text-sm font-Kode text-neutral-300">${
-              item.querySelector("description").textContent
+            <p class="text-sm font-Kode text-neutral-300">${item.querySelector("description").textContent
             }</p>
           </div>
         `;

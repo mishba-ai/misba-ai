@@ -18,7 +18,10 @@ const router = createHashRouter(
         { path: "/contact-me", element: <Contactme /> },
       ],
     },
-  ]
+  ],
+  {
+    basename: "/misba-ai",
+  }
 );
 
 const root = createRoot(document.getElementById("app"));
