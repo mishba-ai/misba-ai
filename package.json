@@ -6,9 +6,8 @@
   "homepage": "https://mishba-ai.github.io/misba-ai",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "build-gh": "parcel build --public-url /misba-ai/",
-    "predeploy": "npm run build-gh",
+    "build": "parcel build index.html --public-url /misba-ai/",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
