@@ -18,17 +18,16 @@ const router = createHashRouter(
         { path: "/contact-me", element: <Contactme /> },
       ],
     },
-  ],
-  {
-    basename: "/misba-ai",
-  }
+  ]
+  // {
+  //   basename: "/misba-ai",
+  // }
 );
 
 const root = createRoot(document.getElementById("app"));
 root.render(
   <React.StrictMode>
-    {/* <RouterProvider router={router} />
-     */}
-    <Layout />
+    <RouterProvider router={router} />
+    {/* <Layout /> */}
   </React.StrictMode>
 );

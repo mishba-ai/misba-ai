@@ -1,21 +1,21 @@
-// import Header from "./Components/Header";
+import Header from "./Components/Header";
 import React from "react";
-// import { Outlet } from "react-router-dom";
-// import Footer from "./Components/Footer";
+import { Outlet } from "react-router-dom";
+import Footer from "./Components/Footer";
 
 export default function Layout() {
   return (
     <div className="w-full bg-black min-h-screen flex justify-center ">
       <div className="text-white max-w-[700px] w-full mx-auto min-h-screen px-5 flex flex-col">
         <div>
-          {/* <Header /> */}
+          <Header />
         </div>
         <div className="mt-10 flex-1">
-          {/* <Outlet /> */}
+          <Outlet />
           <h1>layout works</h1>
         </div>
         <div className="mt-auto">
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </div>
     </div>

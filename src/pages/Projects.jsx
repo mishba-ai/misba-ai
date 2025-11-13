@@ -75,7 +75,6 @@ export default function Projects() {
       link: "https://github.com/mishba-ai/NomadX",
       websiteLink: "",
       TechStack: ["React", "Django", "postgress", "Tailwind CSS"],
-      Image: connectdevs,
       status: "In progress",
     },
     {
@@ -85,6 +84,7 @@ export default function Projects() {
       link: "https://github.com/mishba-ai/Connect-dev",
       websiteLink: "",
       TechStack: ["React", "Tailwind CSS"],
+      Image: connectdevs,
       status: "On hold",
     },
     {
@@ -117,7 +117,7 @@ export default function Projects() {
             key={index}
             isHovered={hoveredIndex === index}
             onHover={() => setHoveredIndex(index)}
-            OnLeave={() => setHoveredIndex(null)}
+            onLeave={() => setHoveredIndex(null)}
           />
         ))}
       </ul>
