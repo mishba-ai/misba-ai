@@ -12,7 +12,6 @@ export default function Layout() {
         </div>
         <div className="mt-10 flex-1">
           <Outlet />
-          <h1>layout works</h1>
         </div>
         <div className="mt-auto">
           <Footer />
