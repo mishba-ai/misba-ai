@@ -14,16 +14,6 @@ export default function Home() {
     },
   ];
   const socials = [
-    // {
-    //   svg: twitter,
-    //   link: "https://twitter.com/misba_codes",
-    //   alt: "twitter",
-    // },
-    {
-      svg: linkedin,
-      link: "https://www.linkedin.com/in/mishba-bagban/",
-      alt: "linkedin",
-    },
     {
       svg: github,
       link: "https://github.com/mishba-ai",
