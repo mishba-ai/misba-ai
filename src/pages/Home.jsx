@@ -2,7 +2,7 @@ import React from "react";
 import substack from "../images/socials/substack.svg";
 import blink from "../images/socials/blink.svg";
 // import twitter from "../images/socials/twitter.svg";
-import linkedin from "../images/socials/linkedin.svg";
+// import linkedin from "../images/socials/linkedin.svg";
 import github from "../images/socials/githublink.svg";
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
       <div className="mt-4 space-y-4  font-Kode text-slate-300 ">
         I&apos;m a{" "}
         <span className="h-2 p-1 bg-neutral-800 border border-neutral-700 rounded text-sm text-violet-200 borde w-16">
-          Frontend Developer
+          Full-Stack Web Developer
         </span>{" "}
         who loves building cool projects. I really enjoy turning ideas into working websites and
         apps. <br /> Right now, I&apos;m getting into{" "}

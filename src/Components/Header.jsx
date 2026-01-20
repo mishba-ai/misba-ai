@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <div className="flex bg-transparent font-medium text-violet-400 sm: h-10 mt-9 text-xl text-gray font-Kode max-sm:text-[1.05rem]">
+    <div className="flex bg-transparent font-medium text-violet-40 sm: h-10 mt-9 text-xl text-gray font-Kode max-sm:text-[1.05rem]">
       <ul className="flex justify-center items-center gap-x-6 ">
         <Link to="/">
           <li className={`${isCurrentPage("/")}`}>Home</li>

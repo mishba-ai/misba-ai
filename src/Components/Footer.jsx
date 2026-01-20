@@ -8,8 +8,8 @@ const Footer = () => {
       id="footer"
       className=" bg-neutral-9 flex text-neutral-500 mt-14 justify-start items-center w-full   pb-[2rem]"
     >
-      <span className="flex gap-x-2">
-        <img src={copyright} alt="" />
+      <span className="flex gap-x-1 align-baseline">
+        <img src={copyright} alt="" className="w-4" />
         <p>Misba Bagban . All Rights Reserved</p>
       </span>
     </div>
