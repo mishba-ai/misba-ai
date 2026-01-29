@@ -34440,8 +34440,7 @@ var _substackSvgDefault = parcelHelpers.interopDefault(_substackSvg);
 var _blinkSvg = require("../images/socials/blink.svg");
 var _blinkSvgDefault = parcelHelpers.interopDefault(_blinkSvg);
 // import twitter from "../images/socials/twitter.svg";
-var _linkedinSvg = require("../images/socials/linkedin.svg");
-var _linkedinSvgDefault = parcelHelpers.interopDefault(_linkedinSvg);
+// import linkedin from "../images/socials/linkedin.svg";
 var _githublinkSvg = require("../images/socials/githublink.svg");
 var _githublinkSvgDefault = parcelHelpers.interopDefault(_githublinkSvg);
 function Home() {
@@ -34477,7 +34476,7 @@ function Home() {
                     " ",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                         className: "h-2 p-1 bg-neutral-800 border border-neutral-700 rounded text-sm text-violet-200 borde w-16",
-                        children: "Frontend Developer"
+                        children: "Full-Stack Web Developer"
                     }, void 0, false, {
                         fileName: "src/pages/Home.jsx",
                         lineNumber: 28,
@@ -34682,7 +34681,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/socials/substack.svg":"jJvxP","../images/socials/blink.svg":"l7gcm","../images/socials/linkedin.svg":"5XSmz","../images/socials/githublink.svg":"dfWUV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jJvxP":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/socials/substack.svg":"jJvxP","../images/socials/blink.svg":"l7gcm","../images/socials/githublink.svg":"dfWUV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jJvxP":[function(require,module,exports) {
 module.exports = require("1325b87689a2cf0c").getBundleURL("bLxZJ") + "substack.ce863f3c.svg" + "?" + Date.now();
 
 },{"1325b87689a2cf0c":"lgJ39"}],"lgJ39":[function(require,module,exports) {
@@ -34723,10 +34722,7 @@ exports.getOrigin = getOrigin;
 },{}],"l7gcm":[function(require,module,exports) {
 module.exports = require("9c19f329532510ae").getBundleURL("bLxZJ") + "blink.f44aee2b.svg" + "?" + Date.now();
 
-},{"9c19f329532510ae":"lgJ39"}],"5XSmz":[function(require,module,exports) {
-module.exports = require("1e02fc1f3fad5c91").getBundleURL("bLxZJ") + "linkedin.49c2dcdf.svg" + "?" + Date.now();
-
-},{"1e02fc1f3fad5c91":"lgJ39"}],"dfWUV":[function(require,module,exports) {
+},{"9c19f329532510ae":"lgJ39"}],"dfWUV":[function(require,module,exports) {
 module.exports = require("55eecd05d7aded6f").getBundleURL("bLxZJ") + "githublink.f8f44a97.svg" + "?" + Date.now();
 
 },{"55eecd05d7aded6f":"lgJ39"}],"km3Ru":[function(require,module,exports) {
@@ -34880,12 +34876,48 @@ parcelHelpers.export(exports, "default", ()=>Projects);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _projectJsx = require("../Components/Project.jsx");
+var _projectJsxDefault = parcelHelpers.interopDefault(_projectJsx);
+function Projects() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectJsxDefault.default), {}, void 0, false, {
+            fileName: "src/pages/Projects.jsx",
+            lineNumber: 7,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "src/pages/Projects.jsx",
+        lineNumber: 6,
+        columnNumber: 5
+    }, this);
+}
+_c = Projects;
+var _c;
+$RefreshReg$(_c, "Projects");
+
+  $parcel$ReactRefreshHelpers$0bff.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../Components/Project.jsx":"cJSYi"}],"cJSYi":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$7d2d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$7d2d.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Projects);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
 var _githublinkSvg = require("../images/socials/githublink.svg");
 var _githublinkSvgDefault = parcelHelpers.interopDefault(_githublinkSvg);
 var _linkSvg = require("../images/socials/link.svg");
 var _linkSvgDefault = parcelHelpers.interopDefault(_linkSvg);
-var _connectdevsPng = require("../images/connectdevs.png");
-var _connectdevsPngDefault = parcelHelpers.interopDefault(_connectdevsPng);
+// import connectdevs from "../images/connectdevs.png";
 var _propTypes = require("prop-types");
 var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _s = $RefreshSig$();
@@ -34895,19 +34927,19 @@ const ProjectItem = ({ project, isHovered, onHover, onLeave })=>/*#__PURE__*/ (0
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                 onMouseEnter: onHover,
                 onMouseLeave: onLeave,
-                className: "text-2xl text-violet-300 w-40  font-Kode ",
+                className: "text-2xl text-violet-30 w-full font-Kode ",
                 children: project.title
             }, void 0, false, {
-                fileName: "src/pages/Projects.jsx",
-                lineNumber: 10,
+                fileName: "src/Components/Project.jsx",
+                lineNumber: 9,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 className: "font-Ubuntu text-lg mt-2  text-neutral-500 ",
                 children: project.description
             }, void 0, false, {
-                fileName: "src/pages/Projects.jsx",
-                lineNumber: 17,
+                fileName: "src/Components/Project.jsx",
+                lineNumber: 16,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -34916,13 +34948,13 @@ const ProjectItem = ({ project, isHovered, onHover, onLeave })=>/*#__PURE__*/ (0
                         className: "bg-neutral-800  border border-neutral-700 rounded text-sm text-neutral-400 p-1",
                         children: tech
                     }, index, false, {
-                        fileName: "src/pages/Projects.jsx",
-                        lineNumber: 21,
+                        fileName: "src/Components/Project.jsx",
+                        lineNumber: 20,
                         columnNumber: 11
                     }, undefined))
             }, void 0, false, {
-                fileName: "src/pages/Projects.jsx",
-                lineNumber: 18,
+                fileName: "src/Components/Project.jsx",
+                lineNumber: 17,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34935,8 +34967,8 @@ const ProjectItem = ({ project, isHovered, onHover, onLeave })=>/*#__PURE__*/ (0
                             project.status
                         ]
                     }, void 0, true, {
-                        fileName: "src/pages/Projects.jsx",
-                        lineNumber: 30,
+                        fileName: "src/Components/Project.jsx",
+                        lineNumber: 29,
                         columnNumber: 7
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -34948,20 +34980,20 @@ const ProjectItem = ({ project, isHovered, onHover, onLeave })=>/*#__PURE__*/ (0
                                     src: (0, _githublinkSvgDefault.default),
                                     alt: "sourcecode"
                                 }, void 0, false, {
-                                    fileName: "src/pages/Projects.jsx",
-                                    lineNumber: 35,
+                                    fileName: "src/Components/Project.jsx",
+                                    lineNumber: 34,
                                     columnNumber: 11
                                 }, undefined)
                             }, void 0, false, {
-                                fileName: "src/pages/Projects.jsx",
-                                lineNumber: 34,
+                                fileName: "src/Components/Project.jsx",
+                                lineNumber: 33,
                                 columnNumber: 9
                             }, undefined),
                             " "
                         ]
                     }, void 0, true, {
-                        fileName: "src/pages/Projects.jsx",
-                        lineNumber: 33,
+                        fileName: "src/Components/Project.jsx",
+                        lineNumber: 32,
                         columnNumber: 7
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -34973,26 +35005,26 @@ const ProjectItem = ({ project, isHovered, onHover, onLeave })=>/*#__PURE__*/ (0
                                     src: (0, _linkSvgDefault.default),
                                     alt: "weblink"
                                 }, void 0, false, {
-                                    fileName: "src/pages/Projects.jsx",
-                                    lineNumber: 40,
+                                    fileName: "src/Components/Project.jsx",
+                                    lineNumber: 39,
                                     columnNumber: 11
                                 }, undefined)
                             }, void 0, false, {
-                                fileName: "src/pages/Projects.jsx",
-                                lineNumber: 39,
+                                fileName: "src/Components/Project.jsx",
+                                lineNumber: 38,
                                 columnNumber: 9
                             }, undefined),
                             " "
                         ]
                     }, void 0, true, {
-                        fileName: "src/pages/Projects.jsx",
-                        lineNumber: 38,
+                        fileName: "src/Components/Project.jsx",
+                        lineNumber: 37,
                         columnNumber: 7
                     }, undefined)
                 ]
             }, void 0, true, {
-                fileName: "src/pages/Projects.jsx",
-                lineNumber: 29,
+                fileName: "src/Components/Project.jsx",
+                lineNumber: 28,
                 columnNumber: 5
             }, undefined),
             isHovered && project.Image && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35002,19 +35034,19 @@ const ProjectItem = ({ project, isHovered, onHover, onLeave })=>/*#__PURE__*/ (0
                     alt: project.title,
                     className: "w-64 h-64 border-4 border-violet-400 object-cover rounded-full shadow-lg"
                 }, void 0, false, {
-                    fileName: "src/pages/Projects.jsx",
-                    lineNumber: 46,
+                    fileName: "src/Components/Project.jsx",
+                    lineNumber: 45,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
-                fileName: "src/pages/Projects.jsx",
-                lineNumber: 45,
+                fileName: "src/Components/Project.jsx",
+                lineNumber: 44,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/pages/Projects.jsx",
-        lineNumber: 9,
+        fileName: "src/Components/Project.jsx",
+        lineNumber: 8,
         columnNumber: 3
     }, undefined);
 _c = ProjectItem;
@@ -35035,16 +35067,28 @@ ProjectItem.propTypes = {
 function Projects() {
     _s();
     const projectInfo = [
+        // {
+        //   title: "NomadX",
+        //   description:
+        //     "NomadX is a web app designed to be a hub for Digital Nomads. It helps them find ideal work-travel destinations,connect with other nomads,and manage the logistics of their remote lifestyle.",
+        //   link: "https://github.com/mishba-ai/NomadX",
+        //   websiteLink: "",
+        //   TechStack: ["React", "Django", "postgress", "Tailwind CSS"],
+        //   status: "In progress",
+        // },
         {
-            title: "NomadX",
-            description: "NomadX is a web app designed to be a hub for Digital Nomads. It helps them find ideal work-travel destinations,connect with other nomads,and manage the logistics of their remote lifestyle.",
-            link: "https://github.com/mishba-ai/NomadX",
+            title: "Vibeo",
+            description: "A full-stack social media thread application featuring real-time updates.",
+            link: "https://github.com/mishba-ai/vibeo",
             websiteLink: "",
             TechStack: [
                 "React",
-                "Django",
-                "postgress",
-                "Tailwind CSS"
+                "Express",
+                "Postgress",
+                "Tailwind CSS",
+                "Websocket",
+                "Turborepo",
+                "Prisma"
             ],
             status: "In progress"
         },
@@ -35057,28 +35101,23 @@ function Projects() {
                 "React",
                 "Tailwind CSS"
             ],
-            Image: (0, _connectdevsPngDefault.default),
-            status: "On hold"
+            // Image: connectdevs,
+            status: "In-Progress"
         },
         {
-            title: "Bunko",
-            description: "Bunko is a  web app where you can read any book and can read summary of the book.",
-            link: "https://github.com/mishba-ai/Bunko",
-            websiteLink: "",
+            title: "FinAI - (Hackathon Project at RAGHACK)",
+            description: "AI-Powered Financial Advisor.",
+            link: "https://github.com/hadil1999-creator/RAG_Hack_team",
+            websiteLink: "https://github.com/microsoft/RAG_Hack/issues/152",
             TechStack: [
-                "sveltekit",
-                "supabase",
-                "Tailwind CSS"
+                "Azure AI",
+                "FastAPI",
+                "RAG",
+                "React",
+                "TailwindCSS"
             ],
-            status: "In progress"
-        },
-        {
-            title: "Zen-do",
-            description: "Zen-do is a web app where you can write your daily journal and can also read other's journal.others can comment on your journal.",
-            link: "https://github.com/mishba-ai/Zen-do",
-            websiteLink: "",
-            // TechStack: ["haven't decided yet"],
-            status: "not started"
+            // Image: " ",
+            status: "In-Progress"
         }
     ];
     const [hoveredIndex, setHoveredIndex] = (0, _react.useState)(null);
@@ -35092,18 +35131,18 @@ function Projects() {
                     onHover: ()=>setHoveredIndex(index),
                     onLeave: ()=>setHoveredIndex(null)
                 }, index, false, {
-                    fileName: "src/pages/Projects.jsx",
-                    lineNumber: 115,
+                    fileName: "src/Components/Project.jsx",
+                    lineNumber: 140,
                     columnNumber: 11
                 }, this))
         }, void 0, false, {
-            fileName: "src/pages/Projects.jsx",
-            lineNumber: 113,
+            fileName: "src/Components/Project.jsx",
+            lineNumber: 138,
             columnNumber: 7
         }, this)
     }, void 0, false, {
-        fileName: "src/pages/Projects.jsx",
-        lineNumber: 112,
+        fileName: "src/Components/Project.jsx",
+        lineNumber: 137,
         columnNumber: 5
     }, this);
 }
@@ -35113,18 +35152,15 @@ var _c, _c1;
 $RefreshReg$(_c, "ProjectItem");
 $RefreshReg$(_c1, "Projects");
 
-  $parcel$ReactRefreshHelpers$0bff.postlude(module);
+  $parcel$ReactRefreshHelpers$7d2d.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/socials/githublink.svg":"dfWUV","../images/socials/link.svg":"jqoCQ","../images/connectdevs.png":"kEEnP","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jqoCQ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/socials/githublink.svg":"dfWUV","../images/socials/link.svg":"jqoCQ","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jqoCQ":[function(require,module,exports) {
 module.exports = require("37a52c290524ff7d").getBundleURL("bLxZJ") + "link.554f54ea.svg" + "?" + Date.now();
 
-},{"37a52c290524ff7d":"lgJ39"}],"kEEnP":[function(require,module,exports) {
-module.exports = require("a68c3d8bfc930505").getBundleURL("bLxZJ") + "connectdevs.f06902d8.png" + "?" + Date.now();
-
-},{"a68c3d8bfc930505":"lgJ39"}],"7wKI2":[function(require,module,exports) {
+},{"37a52c290524ff7d":"lgJ39"}],"7wKI2":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -35893,7 +35929,7 @@ function Layout() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "w-full bg-black min-h-screen flex justify-center ",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "text-white max-w-[700px] w-full mx-auto min-h-screen px-5 flex flex-col",
+            className: "text-white max-w-[700px] w-full mx-auto min-h-screen px-5 flex flex-col translate scale-80",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
@@ -35974,7 +36010,7 @@ const Header = ()=>{
         return location.pathname === page ? "underline underline-offset-4 underline-violet-400 " : "";
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "flex bg-transparent font-medium text-violet-400 sm: h-10 mt-9 text-xl text-gray font-Kode max-sm:text-[1.05rem]",
+        className: "flex bg-transparent font-medium text-violet-40 sm: h-10 mt-9 text-xl text-gray font-Kode max-sm:text-[1.05rem]",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
             className: "flex justify-center items-center gap-x-6 ",
             children: [
@@ -36072,11 +36108,12 @@ const Footer = ()=>{
         id: "footer",
         className: " bg-neutral-9 flex text-neutral-500 mt-14 justify-start items-center w-full   pb-[2rem]",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-            className: "flex gap-x-2",
+            className: "flex gap-x-1 align-baseline",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     src: (0, _copyrightSvgDefault.default),
-                    alt: ""
+                    alt: "",
+                    className: "w-4"
                 }, void 0, false, {
                     fileName: "src/Components/Footer.jsx",
                     lineNumber: 12,
